@@ -1,4 +1,6 @@
-const Input = ({type, label, onChange, value, name}) => {
+import { InputPropsTypes } from './input.types';
+
+const Input: React.FC<InputPropsTypes> = ({type, label, onChange, value, name}) => {
   return (
     <div>
       {label && <label htmlFor={name}>{label}</label>}

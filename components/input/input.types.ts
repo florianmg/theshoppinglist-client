@@ -1,7 +1,7 @@
 export type InputPropsTypes = {
-  type: String;
-  label?: String;
-  name?: String;
-  onChange: () => String;
-  value: String;
+  type: string;
+  label?: string;
+  name?: string;
+  onChange: (newValue: string) => void;
+  value: string;
 }

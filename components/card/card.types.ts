@@ -1,3 +1,3 @@
 export type CardPropsTypes = {
-  name: String
+  name: string
 }
